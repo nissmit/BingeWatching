@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BingeWatching", "BingeWatching\BingeWatching.csproj", "{E76B1A8C-8FB7-4626-86BD-BBCE29B1EE02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingeWatching.API", "BingeWatching.API\BingeWatching.API.csproj", "{D559608D-0DBF-407E-880E-35BE0D1AF643}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingeWatching.Common", "BingeWatching.Common\BingeWatching.Common.csproj", "{4DE3CBF8-6E31-4AEE-BC66-E9ED3D469A81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingeWatching.NetflixProvider", "BingeWatching.NetflixProvider\BingeWatching.NetflixProvider.csproj", "{E895F1C3-BD82-43B4-9A71-8EC8DCA23112}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingeWatching.Core", "BingeWatching.Core\BingeWatching.Core.csproj", "{3AAE7628-0DE4-4B53-BD4F-47BD7A3B37E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingeWatching.Test.Unit", "BingeWatching.Test.Unit\BingeWatching.Test.Unit.csproj", "{D0AD25AC-64CA-4410-8732-FF4AEF70CBCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingeWatching.Integration.Test", "BingeWatching.Integration.Test\BingeWatching.Integration.Test.csproj", "{BE52C5FE-52CF-426F-BDEE-FA57256763C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E76B1A8C-8FB7-4626-86BD-BBCE29B1EE02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E76B1A8C-8FB7-4626-86BD-BBCE29B1EE02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E76B1A8C-8FB7-4626-86BD-BBCE29B1EE02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E76B1A8C-8FB7-4626-86BD-BBCE29B1EE02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D559608D-0DBF-407E-880E-35BE0D1AF643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D559608D-0DBF-407E-880E-35BE0D1AF643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D559608D-0DBF-407E-880E-35BE0D1AF643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D559608D-0DBF-407E-880E-35BE0D1AF643}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DE3CBF8-6E31-4AEE-BC66-E9ED3D469A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE3CBF8-6E31-4AEE-BC66-E9ED3D469A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE3CBF8-6E31-4AEE-BC66-E9ED3D469A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE3CBF8-6E31-4AEE-BC66-E9ED3D469A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E895F1C3-BD82-43B4-9A71-8EC8DCA23112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E895F1C3-BD82-43B4-9A71-8EC8DCA23112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E895F1C3-BD82-43B4-9A71-8EC8DCA23112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E895F1C3-BD82-43B4-9A71-8EC8DCA23112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AAE7628-0DE4-4B53-BD4F-47BD7A3B37E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AAE7628-0DE4-4B53-BD4F-47BD7A3B37E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AAE7628-0DE4-4B53-BD4F-47BD7A3B37E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AAE7628-0DE4-4B53-BD4F-47BD7A3B37E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0AD25AC-64CA-4410-8732-FF4AEF70CBCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0AD25AC-64CA-4410-8732-FF4AEF70CBCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0AD25AC-64CA-4410-8732-FF4AEF70CBCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0AD25AC-64CA-4410-8732-FF4AEF70CBCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE52C5FE-52CF-426F-BDEE-FA57256763C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE52C5FE-52CF-426F-BDEE-FA57256763C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE52C5FE-52CF-426F-BDEE-FA57256763C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE52C5FE-52CF-426F-BDEE-FA57256763C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B809E837-6954-41E1-8C46-B206D036ACA6}
+	EndGlobalSection
+EndGlobal

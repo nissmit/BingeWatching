@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <OutputType>exe</OutputType>
+    </PropertyGroup>
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\BingeWatching.API\BingeWatching.API.csproj" />
+      <ProjectReference Include="..\BingeWatching.Common\BingeWatching.Common.csproj" />
+      <ProjectReference Include="..\BingeWatching.NetflixProvider\BingeWatching.NetflixProvider.csproj" />
+    </ItemGroup>
+</Project>

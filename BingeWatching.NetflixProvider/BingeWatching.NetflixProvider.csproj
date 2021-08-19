@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BingeWatching.API\BingeWatching.API.csproj" />
+    <ProjectReference Include="..\BingeWatching.Common\BingeWatching.Common.csproj" />
+    <ProjectReference Include="..\BingeWatching.Core\BingeWatching.Core.csproj" />
+  </ItemGroup>
+
+</Project>
